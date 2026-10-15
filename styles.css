@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: #333 333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #273c75;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+header p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: ;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 26px;
+    color: #273c75;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+#quote-box {
+    background-color: #f8faff;
+    border-left: 5px solid #273c75;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#quote-text {
+    font-size: 22px;
+    color: #333333;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#quote-author {
+    font-size: 16px;
+    color: #273c75;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+
+#generate-quote {
+    display: block;
+    width: 100%;
+    background-color: #273c75;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#generate-quote:hover {
+    background-color: green;
+}
+
+
+#generate-quote:active {
+    transform: scale(0.98);
+}
+
+
+#loading-message {
+    color: #273c75;
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+#error-message {
+    color: #d63031;
+    background-color: #ffecec;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+
+footer {
+    background-color: #222f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+
+    #quote-text {
+        font-size: 18px;
+    }
+
+    #quote-box {
+        padding: 18px;
+    }
+
+    #generate-quote {
+        font-size: 15px;
+        padding: 13px;
+    }
+}
